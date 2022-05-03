@@ -61,7 +61,8 @@ tracks/0/keys = {
 }
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 11.0
+radius = 24.0
+height = 46.0
 
 [node name="player_normal" type="KinematicBody2D"]
 script = ExtResource( 2 )
@@ -72,12 +73,13 @@ anims/player_run = SubResource( 4 )
 anims/player_stand = SubResource( 3 )
 
 [node name="Texture-0" type="Sprite" parent="."]
-position = Vector2( 5, -10 )
+position = Vector2( 11, -10 )
+scale = Vector2( 2.40132, 2.40132 )
 texture = ExtResource( 1 )
 hframes = 17
 vframes = 26
 frame = 357
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 1, 0 )
+[node name="player" type="CollisionShape2D" parent="."]
+position = Vector2( -1, 11 )
 shape = SubResource( 1 )
