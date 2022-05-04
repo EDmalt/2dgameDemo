@@ -4,7 +4,7 @@
 			"image": "texture1.png",
 			"size": {
 				"w": 2040,
-				"h": 2000
+				"h": 1440
 			},
 			"sprites": [
 				{
@@ -13,36 +13,6 @@
 						"x": 0,
 						"y": 0,
 						"w": 1440,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack.png",
-					"region": {
-						"x": 1440,
-						"y": 0,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Crouch.png",
-					"region": {
-						"x": 1920,
-						"y": 0,
-						"w": 120,
 						"h": 80
 					},
 					"margin": {
@@ -68,56 +38,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png",
-					"region": {
-						"x": 1440,
-						"y": 80,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png",
-					"region": {
-						"x": 1920,
-						"y": 80,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackCombo2hit.png",
 					"region": {
 						"x": 0,
 						"y": 160,
 						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimb.png",
-					"region": {
-						"x": 1200,
-						"y": 160,
-						"w": 840,
 						"h": 80
 					},
 					"margin": {
@@ -143,41 +68,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 240,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Death.png",
 					"region": {
 						"x": 0,
 						"y": 320,
 						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimb.png",
-					"region": {
-						"x": 1200,
-						"y": 320,
-						"w": 840,
 						"h": 80
 					},
 					"margin": {
@@ -203,56 +98,11 @@
 					}
 				},
 				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 400,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Idle.png",
 					"region": {
 						"x": 0,
 						"y": 480,
 						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2.png",
-					"region": {
-						"x": 1200,
-						"y": 480,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Hit.png",
-					"region": {
-						"x": 1920,
-						"y": 480,
-						"w": 120,
 						"h": 80
 					},
 					"margin": {
@@ -278,71 +128,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 560,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionEnd.png",
-					"region": {
-						"x": 1920,
-						"y": 560,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackCombo.png",
 					"region": {
 						"x": 0,
 						"y": 640,
 						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack2.png",
-					"region": {
-						"x": 1200,
-						"y": 640,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionStart.png",
-					"region": {
-						"x": 1920,
-						"y": 640,
-						"w": 120,
 						"h": 80
 					},
 					"margin": {
@@ -368,6 +158,201 @@
 					}
 				},
 				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Death.png",
+					"region": {
+						"x": 0,
+						"y": 800,
+						"w": 1200,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_DeathNoMovement.png",
+					"region": {
+						"x": 0,
+						"y": 880,
+						"w": 1200,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Idle.png",
+					"region": {
+						"x": 0,
+						"y": 960,
+						"w": 1200,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Run.png",
+					"region": {
+						"x": 0,
+						"y": 1040,
+						"w": 1200,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchWalk.png",
+					"region": {
+						"x": 0,
+						"y": 1120,
+						"w": 960,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchWalk.png",
+					"region": {
+						"x": 960,
+						"y": 1120,
+						"w": 960,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimb.png",
+					"region": {
+						"x": 1200,
+						"y": 160,
+						"w": 840,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
+					"region": {
+						"x": 1200,
+						"y": 240,
+						"w": 840,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimb.png",
+					"region": {
+						"x": 1200,
+						"y": 320,
+						"w": 840,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
+					"region": {
+						"x": 1200,
+						"y": 400,
+						"w": 840,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2.png",
+					"region": {
+						"x": 1200,
+						"y": 480,
+						"w": 720,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
+					"region": {
+						"x": 1200,
+						"y": 560,
+						"w": 720,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack2.png",
+					"region": {
+						"x": 1200,
+						"y": 640,
+						"w": 720,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
 					"region": {
 						"x": 1200,
@@ -383,11 +368,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_WallHang.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack.png",
 					"region": {
-						"x": 1920,
-						"y": 720,
-						"w": 120,
+						"x": 1440,
+						"y": 0,
+						"w": 480,
 						"h": 80
 					},
 					"margin": {
@@ -398,11 +383,11 @@
 					}
 				},
 				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_Death.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png",
 					"region": {
-						"x": 0,
-						"y": 800,
-						"w": 1200,
+						"x": 1440,
+						"y": 80,
+						"w": 480,
 						"h": 80
 					},
 					"margin": {
@@ -428,71 +413,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchFull.png",
-					"region": {
-						"x": 1680,
-						"y": 800,
-						"w": 360,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_Idle.png",
-					"region": {
-						"x": 0,
-						"y": 880,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideFull.png",
 					"region": {
 						"x": 1200,
 						"y": 880,
 						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Fall.png",
-					"region": {
-						"x": 1680,
-						"y": 880,
-						"w": 360,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_Run.png",
-					"region": {
-						"x": 0,
-						"y": 960,
-						"w": 1200,
 						"h": 80
 					},
 					"margin": {
@@ -518,70 +443,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Jump.png",
-					"region": {
-						"x": 1680,
-						"y": 960,
-						"w": 360,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchWalk.png",
-					"region": {
-						"x": 0,
-						"y": 1040,
-						"w": 960,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchWalk.png",
-					"region": {
-						"x": 960,
-						"y": 1040,
-						"w": 960,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_Crouch.png",
-					"region": {
-						"x": 1920,
-						"y": 1040,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackNoMovement.png",
 					"region": {
-						"x": 0,
-						"y": 1120,
+						"x": 1200,
+						"y": 1040,
 						"w": 480,
 						"h": 80
 					},
@@ -610,9 +475,54 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideAll.png",
 					"region": {
-						"x": 0,
-						"y": 1280,
+						"x": 480,
+						"y": 1200,
 						"w": 480,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchFull.png",
+					"region": {
+						"x": 1680,
+						"y": 800,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Fall.png",
+					"region": {
+						"x": 1680,
+						"y": 880,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Jump.png",
+					"region": {
+						"x": 1680,
+						"y": 960,
+						"w": 360,
 						"h": 80
 					},
 					"margin": {
@@ -625,8 +535,8 @@
 				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_TurnAround.png",
 					"region": {
-						"x": 0,
-						"y": 1360,
+						"x": 1680,
+						"y": 1040,
 						"w": 360,
 						"h": 80
 					},
@@ -640,8 +550,8 @@
 				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_WallSlide.png",
 					"region": {
-						"x": 0,
-						"y": 1440,
+						"x": 960,
+						"y": 1200,
 						"w": 360,
 						"h": 80
 					},
@@ -655,8 +565,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchAll.png",
 					"region": {
-						"x": 0,
-						"y": 1520,
+						"x": 1320,
+						"y": 1200,
 						"w": 360,
 						"h": 80
 					},
@@ -670,8 +580,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Fall.png",
 					"region": {
-						"x": 0,
-						"y": 1600,
+						"x": 1680,
+						"y": 1200,
 						"w": 360,
 						"h": 80
 					},
@@ -686,7 +596,7 @@
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Jump.png",
 					"region": {
 						"x": 0,
-						"y": 1680,
+						"y": 1280,
 						"w": 360,
 						"h": 80
 					},
@@ -700,8 +610,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_TurnAround.png",
 					"region": {
-						"x": 0,
-						"y": 1760,
+						"x": 360,
+						"y": 1280,
 						"w": 360,
 						"h": 80
 					},
@@ -715,8 +625,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_WallSlide.png",
 					"region": {
-						"x": 0,
-						"y": 1840,
+						"x": 720,
+						"y": 1280,
 						"w": 360,
 						"h": 80
 					},
@@ -730,8 +640,8 @@
 				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Dash.png",
 					"region": {
-						"x": 0,
-						"y": 1920,
+						"x": 1080,
+						"y": 1280,
 						"w": 240,
 						"h": 80
 					},
@@ -745,8 +655,8 @@
 				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_JumpFallInbetween.png",
 					"region": {
-						"x": 240,
-						"y": 1920,
+						"x": 1320,
+						"y": 1280,
 						"w": 240,
 						"h": 80
 					},
@@ -760,8 +670,8 @@
 				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Slide.png",
 					"region": {
-						"x": 360,
-						"y": 1360,
+						"x": 1560,
+						"y": 1280,
 						"w": 240,
 						"h": 80
 					},
@@ -775,8 +685,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Dash.png",
 					"region": {
-						"x": 480,
-						"y": 1120,
+						"x": 1800,
+						"y": 1280,
 						"w": 240,
 						"h": 80
 					},
@@ -790,8 +700,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_JumpFallInbetween.png",
 					"region": {
-						"x": 480,
-						"y": 1200,
+						"x": 0,
+						"y": 1360,
 						"w": 240,
 						"h": 80
 					},
@@ -805,9 +715,114 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Slide.png",
 					"region": {
-						"x": 480,
-						"y": 1280,
+						"x": 240,
+						"y": 1360,
 						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Crouch.png",
+					"region": {
+						"x": 1920,
+						"y": 1120,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png",
+					"region": {
+						"x": 1920,
+						"y": 0,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Hit.png",
+					"region": {
+						"x": 1920,
+						"y": 80,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionEnd.png",
+					"region": {
+						"x": 1920,
+						"y": 480,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionStart.png",
+					"region": {
+						"x": 1920,
+						"y": 560,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_WallHang.png",
+					"region": {
+						"x": 1920,
+						"y": 640,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Crouch.png",
+					"region": {
+						"x": 1920,
+						"y": 720,
+						"w": 120,
 						"h": 80
 					},
 					"margin": {
@@ -820,8 +835,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchTransition.png",
 					"region": {
-						"x": 360,
-						"y": 1440,
+						"x": 480,
+						"y": 1360,
 						"w": 120,
 						"h": 80
 					},
@@ -835,8 +850,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Hit.png",
 					"region": {
-						"x": 360,
-						"y": 1520,
+						"x": 600,
+						"y": 1360,
 						"w": 120,
 						"h": 80
 					},
@@ -850,8 +865,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideTransitionEnd.png",
 					"region": {
-						"x": 360,
-						"y": 1600,
+						"x": 720,
+						"y": 1360,
 						"w": 120,
 						"h": 80
 					},
@@ -865,8 +880,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideTransitionStart.png",
 					"region": {
-						"x": 360,
-						"y": 1680,
+						"x": 840,
+						"y": 1360,
 						"w": 120,
 						"h": 80
 					},
@@ -880,8 +895,8 @@
 				{
 					"filename": "Colour2/Outline/120x80_PNGSheets/_WallHang.png",
 					"region": {
-						"x": 360,
-						"y": 1760,
+						"x": 960,
+						"y": 1360,
 						"w": 120,
 						"h": 80
 					},

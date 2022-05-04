@@ -18,6 +18,8 @@ onready var player=$player# 获取场景树中的人物对象
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	# 初始化游戏
+	player_anim.play("player_stand")
 	pass # Replace with function body.
 	
 func _physics_process(delta):
@@ -55,8 +57,9 @@ func animation_control():
 	# 动画控制
 	if move_direction!=0 and is_on_floor():
 		player_anim.play("player_run")
-		$"Texture-0".flip_h=move_direction<0
 	elif GRAVITY!=-GRAVITY or not is_on_floor():
 		player_anim.play("player_jump_up")
 	if is_on_floor() and move_direction==0:
 		player_anim.play("player_stand")
+	if move_direction!=0:
+		$"Texture-0".flip_h=move_direction<0
