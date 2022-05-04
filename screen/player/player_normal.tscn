@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://material/player/pack-result/texture-0.png" type="Texture" id=1]
+[ext_resource path="res://material/player/pack-result/texture_test.png" type="Texture" id=1]
 [ext_resource path="res://script/player_normal.gd" type="Script" id=2]
 
 [sub_resource type="Animation" id=2]
@@ -28,6 +28,35 @@ tracks/1/keys = {
 "update": 0,
 "values": [ Vector2( 0, 21 ) ]
 }
+tracks/2/type = "value"
+tracks/2/path = NodePath("Texture-0:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "player_jump_up"
+length = 0.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Texture-0:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 340, 341, 342 ]
+}
 
 [sub_resource type="Animation" id=4]
 resource_name = "player_run"
@@ -41,7 +70,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 374, 375, 376, 377, 378, 379, 380, 381, 382, 383 ]
+"values": [ 221, 222, 223, 224, 225, 226, 227, 228, 229, 230 ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -54,10 +83,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 357, 358, 359, 360, 361, 362, 363, 364, 365, 366 ]
+"values": [ 205, 206, 207, 208, 209, 210, 211, 212, 213 ]
 }
 
 [sub_resource type="CapsuleShape2D" id=1]
@@ -69,17 +98,18 @@ script = ExtResource( 2 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 2 )
+anims/player_jump_up = SubResource( 5 )
 anims/player_run = SubResource( 4 )
 anims/player_stand = SubResource( 3 )
 
 [node name="Texture-0" type="Sprite" parent="."]
-position = Vector2( 11, -10 )
+position = Vector2( 0, -33 )
 scale = Vector2( 2.40132, 2.40132 )
 texture = ExtResource( 1 )
 hframes = 17
-vframes = 26
+vframes = 25
 frame = 357
 
 [node name="player" type="CollisionShape2D" parent="."]
-position = Vector2( -1, 11 )
+position = Vector2( -8, 18 )
 shape = SubResource( 1 )

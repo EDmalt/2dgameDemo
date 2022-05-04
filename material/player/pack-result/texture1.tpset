@@ -1,62 +1,17 @@
 {
 	"textures": [
 		{
-			"image": "texture-0.png",
+			"image": "texture1.png",
 			"size": {
 				"w": 2040,
 				"h": 2000
 			},
 			"sprites": [
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Roll.png",
-					"region": {
-						"x": 0,
-						"y": 0,
-						"w": 1440,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Attack.png",
-					"region": {
-						"x": 1440,
-						"y": 0,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Crouch.png",
-					"region": {
-						"x": 1920,
-						"y": 0,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Roll.png",
 					"region": {
 						"x": 0,
-						"y": 80,
+						"y": 0,
 						"w": 1440,
 						"h": 80
 					},
@@ -68,10 +23,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_AttackNoMovement.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack.png",
 					"region": {
 						"x": 1440,
-						"y": 80,
+						"y": 0,
 						"w": 480,
 						"h": 80
 					},
@@ -83,55 +38,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_CrouchTransition.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Crouch.png",
 					"region": {
 						"x": 1920,
-						"y": 80,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
 						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Roll.png",
-					"region": {
-						"x": 0,
-						"y": 160,
-						"w": 1440,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_CrouchAttack.png",
-					"region": {
-						"x": 1440,
-						"y": 160,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Hit.png",
-					"region": {
-						"x": 1920,
-						"y": 160,
 						"w": 120,
 						"h": 80
 					},
@@ -146,7 +56,7 @@
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Roll.png",
 					"region": {
 						"x": 0,
-						"y": 240,
+						"y": 80,
 						"w": 1440,
 						"h": 80
 					},
@@ -158,10 +68,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_SlideFull.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png",
 					"region": {
 						"x": 1440,
-						"y": 240,
+						"y": 80,
 						"w": 480,
 						"h": 80
 					},
@@ -173,10 +83,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionEnd.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png",
 					"region": {
 						"x": 1920,
-						"y": 240,
+						"y": 80,
 						"w": 120,
 						"h": 80
 					},
@@ -188,70 +98,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_AttackCombo.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackCombo2hit.png",
 					"region": {
 						"x": 0,
-						"y": 320,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_WallClimb.png",
-					"region": {
-						"x": 1200,
-						"y": 320,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png",
-					"region": {
-						"x": 0,
-						"y": 400,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_WallClimbNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 400,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Death.png",
-					"region": {
-						"x": 0,
-						"y": 480,
+						"y": 160,
 						"w": 1200,
 						"h": 80
 					},
@@ -266,127 +116,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimb.png",
 					"region": {
 						"x": 1200,
-						"y": 480,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_DeathNoMovement.png",
-					"region": {
-						"x": 0,
-						"y": 560,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 560,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Idle.png",
-					"region": {
-						"x": 0,
-						"y": 640,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_WallClimb.png",
-					"region": {
-						"x": 1200,
-						"y": 640,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Run.png",
-					"region": {
-						"x": 0,
-						"y": 720,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_WallClimbNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 720,
-						"w": 840,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackCombo2hit.png",
-					"region": {
-						"x": 0,
-						"y": 800,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimb.png",
-					"region": {
-						"x": 1200,
-						"y": 800,
+						"y": 160,
 						"w": 840,
 						"h": 80
 					},
@@ -401,7 +131,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackComboNoMovement.png",
 					"region": {
 						"x": 0,
-						"y": 880,
+						"y": 240,
 						"w": 1200,
 						"h": 80
 					},
@@ -413,10 +143,10 @@
 					}
 				},
 				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
 					"region": {
 						"x": 1200,
-						"y": 880,
+						"y": 240,
 						"w": 840,
 						"h": 80
 					},
@@ -431,7 +161,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Death.png",
 					"region": {
 						"x": 0,
-						"y": 960,
+						"y": 320,
 						"w": 1200,
 						"h": 80
 					},
@@ -443,26 +173,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Attack2.png",
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimb.png",
 					"region": {
 						"x": 1200,
-						"y": 960,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionStart.png",
-					"region": {
-						"x": 1920,
-						"y": 960,
-						"w": 120,
+						"y": 320,
+						"w": 840,
 						"h": 80
 					},
 					"margin": {
@@ -476,7 +191,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_DeathNoMovement.png",
 					"region": {
 						"x": 0,
-						"y": 1040,
+						"y": 400,
 						"w": 1200,
 						"h": 80
 					},
@@ -488,26 +203,11 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png",
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallClimbNoMovement.png",
 					"region": {
 						"x": 1200,
-						"y": 1040,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_WallHang.png",
-					"region": {
-						"x": 1920,
-						"y": 1040,
-						"w": 120,
+						"y": 400,
+						"w": 840,
 						"h": 80
 					},
 					"margin": {
@@ -521,7 +221,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Idle.png",
 					"region": {
 						"x": 0,
-						"y": 1120,
+						"y": 480,
 						"w": 1200,
 						"h": 80
 					},
@@ -536,97 +236,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2.png",
 					"region": {
 						"x": 1200,
-						"y": 1120,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Crouch.png",
-					"region": {
-						"x": 1920,
-						"y": 1120,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Run.png",
-					"region": {
-						"x": 0,
-						"y": 1200,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 1200,
-						"w": 720,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png",
-					"region": {
-						"x": 1920,
-						"y": 1200,
-						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_AttackCombo.png",
-					"region": {
-						"x": 0,
-						"y": 1280,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Attack2.png",
-					"region": {
-						"x": 1200,
-						"y": 1280,
+						"y": 480,
 						"w": 720,
 						"h": 80
 					},
@@ -641,7 +251,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_Hit.png",
 					"region": {
 						"x": 1920,
-						"y": 1280,
+						"y": 480,
 						"w": 120,
 						"h": 80
 					},
@@ -653,10 +263,10 @@
 					}
 				},
 				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Run.png",
 					"region": {
 						"x": 0,
-						"y": 1360,
+						"y": 560,
 						"w": 1200,
 						"h": 80
 					},
@@ -668,10 +278,10 @@
 					}
 				},
 				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Attack2NoMovement.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
 					"region": {
 						"x": 1200,
-						"y": 1360,
+						"y": 560,
 						"w": 720,
 						"h": 80
 					},
@@ -686,7 +296,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionEnd.png",
 					"region": {
 						"x": 1920,
-						"y": 1360,
+						"y": 560,
 						"w": 120,
 						"h": 80
 					},
@@ -698,10 +308,10 @@
 					}
 				},
 				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Death.png",
+					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackCombo.png",
 					"region": {
 						"x": 0,
-						"y": 1440,
+						"y": 640,
 						"w": 1200,
 						"h": 80
 					},
@@ -716,7 +326,7 @@
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack2.png",
 					"region": {
 						"x": 1200,
-						"y": 1440,
+						"y": 640,
 						"w": 720,
 						"h": 80
 					},
@@ -731,7 +341,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideTransitionStart.png",
 					"region": {
 						"x": 1920,
-						"y": 1440,
+						"y": 640,
 						"w": 120,
 						"h": 80
 					},
@@ -743,10 +353,10 @@
 					}
 				},
 				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_DeathNoMovement.png",
+					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackComboNoMovement.png",
 					"region": {
 						"x": 0,
-						"y": 1520,
+						"y": 720,
 						"w": 1200,
 						"h": 80
 					},
@@ -761,7 +371,7 @@
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack2NoMovement.png",
 					"region": {
 						"x": 1200,
-						"y": 1520,
+						"y": 720,
 						"w": 720,
 						"h": 80
 					},
@@ -776,68 +386,8 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_WallHang.png",
 					"region": {
 						"x": 1920,
-						"y": 1520,
+						"y": 720,
 						"w": 120,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Idle.png",
-					"region": {
-						"x": 0,
-						"y": 1600,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Run.png",
-					"region": {
-						"x": 0,
-						"y": 1680,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackCombo.png",
-					"region": {
-						"x": 0,
-						"y": 1760,
-						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackComboNoMovement.png",
-					"region": {
-						"x": 0,
-						"y": 1840,
-						"w": 1200,
 						"h": 80
 					},
 					"margin": {
@@ -851,68 +401,8 @@
 					"filename": "Colour2/Outline/120x80_PNGSheets/_Death.png",
 					"region": {
 						"x": 0,
-						"y": 1920,
+						"y": 800,
 						"w": 1200,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_Attack.png",
-					"region": {
-						"x": 1200,
-						"y": 1600,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_CrouchFull.png",
-					"region": {
-						"x": 1680,
-						"y": 1600,
-						"w": 360,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png",
-					"region": {
-						"x": 1200,
-						"y": 1680,
-						"w": 480,
-						"h": 80
-					},
-					"margin": {
-						"x": 0,
-						"y": 0,
-						"w": 0,
-						"h": 0
-					}
-				},
-				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Fall.png",
-					"region": {
-						"x": 1680,
-						"y": 1680,
-						"w": 360,
 						"h": 80
 					},
 					"margin": {
@@ -926,7 +416,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchAttack.png",
 					"region": {
 						"x": 1200,
-						"y": 1760,
+						"y": 800,
 						"w": 480,
 						"h": 80
 					},
@@ -938,11 +428,26 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_Jump.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchFull.png",
 					"region": {
 						"x": 1680,
-						"y": 1760,
+						"y": 800,
 						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Idle.png",
+					"region": {
+						"x": 0,
+						"y": 880,
+						"w": 1200,
 						"h": 80
 					},
 					"margin": {
@@ -956,7 +461,7 @@
 					"filename": "Colour1/Outline/120x80_PNGSheets/_SlideFull.png",
 					"region": {
 						"x": 1200,
-						"y": 1840,
+						"y": 880,
 						"w": 480,
 						"h": 80
 					},
@@ -968,10 +473,10 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_TurnAround.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Fall.png",
 					"region": {
 						"x": 1680,
-						"y": 1840,
+						"y": 880,
 						"w": 360,
 						"h": 80
 					},
@@ -983,10 +488,25 @@
 					}
 				},
 				{
-					"filename": "Colour2/NoOutline/120x80_PNGSheets/_Attack.png",
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Run.png",
+					"region": {
+						"x": 0,
+						"y": 960,
+						"w": 1200,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Attack.png",
 					"region": {
 						"x": 1200,
-						"y": 1920,
+						"y": 960,
 						"w": 480,
 						"h": 80
 					},
@@ -998,11 +518,371 @@
 					}
 				},
 				{
-					"filename": "Colour1/NoOutline/120x80_PNGSheets/_WallSlide.png",
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Jump.png",
 					"region": {
 						"x": 1680,
-						"y": 1920,
+						"y": 960,
 						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_CrouchWalk.png",
+					"region": {
+						"x": 0,
+						"y": 1040,
+						"w": 960,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchWalk.png",
+					"region": {
+						"x": 960,
+						"y": 1040,
+						"w": 960,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Crouch.png",
+					"region": {
+						"x": 1920,
+						"y": 1040,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_AttackNoMovement.png",
+					"region": {
+						"x": 0,
+						"y": 1120,
+						"w": 480,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchAttack.png",
+					"region": {
+						"x": 0,
+						"y": 1200,
+						"w": 480,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideAll.png",
+					"region": {
+						"x": 0,
+						"y": 1280,
+						"w": 480,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_TurnAround.png",
+					"region": {
+						"x": 0,
+						"y": 1360,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_WallSlide.png",
+					"region": {
+						"x": 0,
+						"y": 1440,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchAll.png",
+					"region": {
+						"x": 0,
+						"y": 1520,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Fall.png",
+					"region": {
+						"x": 0,
+						"y": 1600,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Jump.png",
+					"region": {
+						"x": 0,
+						"y": 1680,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_TurnAround.png",
+					"region": {
+						"x": 0,
+						"y": 1760,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallSlide.png",
+					"region": {
+						"x": 0,
+						"y": 1840,
+						"w": 360,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Dash.png",
+					"region": {
+						"x": 0,
+						"y": 1920,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_JumpFallInbetween.png",
+					"region": {
+						"x": 240,
+						"y": 1920,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour1/Outline/120x80_PNGSheets/_Slide.png",
+					"region": {
+						"x": 360,
+						"y": 1360,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Dash.png",
+					"region": {
+						"x": 480,
+						"y": 1120,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_JumpFallInbetween.png",
+					"region": {
+						"x": 480,
+						"y": 1200,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Slide.png",
+					"region": {
+						"x": 480,
+						"y": 1280,
+						"w": 240,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_CrouchTransition.png",
+					"region": {
+						"x": 360,
+						"y": 1440,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_Hit.png",
+					"region": {
+						"x": 360,
+						"y": 1520,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideTransitionEnd.png",
+					"region": {
+						"x": 360,
+						"y": 1600,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_SlideTransitionStart.png",
+					"region": {
+						"x": 360,
+						"y": 1680,
+						"w": 120,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Colour2/Outline/120x80_PNGSheets/_WallHang.png",
+					"region": {
+						"x": 360,
+						"y": 1760,
+						"w": 120,
 						"h": 80
 					},
 					"margin": {
