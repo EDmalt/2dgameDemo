@@ -19,6 +19,7 @@ onready var player=$player# 获取场景树中的人物对象
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	# 初始化游戏
+	health_bars=100
 	player_anim.play("player_stand")
 	pass # Replace with function body.
 	
@@ -33,7 +34,7 @@ func _process(delta):
 	player_move(delta)
 	player_jump(delta)
 	animation_control()
-	print(player_transform.y)
+	#print(player_transform.y)
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
@@ -42,7 +43,9 @@ func player_move(delta):
 	#人物移动部分
 	move_direction=Input.get_action_strength("player_right")-Input.get_action_strength("player_left")
 	player_transform.x=move_toward(player_transform.x,move_direction*max_speed,(max_speed/0.2)*delta)
-
+	if Input.is_action_just_released("player_run"):
+		max_speed=1000
+		pass
 func player_jump(delta):
 	# 跳跃
 	if Input.is_action_pressed("player_jump") and is_jumping==false:
@@ -57,8 +60,10 @@ func animation_control():
 	# 动画控制
 	if move_direction!=0 and is_on_floor():
 		player_anim.play("player_run")
-	elif GRAVITY!=-GRAVITY or not is_on_floor():
+	elif player_transform.y<0 and not is_on_floor():
 		player_anim.play("player_jump_up")
+	elif player_transform.y>0 and not is_on_floor():
+		player_anim.play("player_jump_down")
 	if is_on_floor() and move_direction==0:
 		player_anim.play("player_stand")
 	if move_direction!=0:
