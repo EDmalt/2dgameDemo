@@ -27,6 +27,9 @@ func _physics_process(delta):
 	
 
 func _process(delta):
+	var speed_control=Input.get_action_strength("player_squat")+Input.get_action_strength("player_jump")
+	if speed_control==0:
+		max_speed=old_speed
 	#重力部分
 	Time+=0.1
 	player_transform.y+=GRAVITY*delta*Time# 每帧向下移动，模仿重力
@@ -62,7 +65,10 @@ func animation_control():
 		player_anim.play("player_jump_up")# 播放跳跃上升动画
 	elif player_transform.y>0 and not is_on_floor():
 		player_anim.play("player_jump_down")# 播放跳跃下降动画
-	if is_on_floor() and move_direction==0:
+		max_speed+=10
+	else:
 		player_anim.play("player_stand")# 播放站立等待动画
+	if Input.is_action_pressed("player_squat"):
+		player_anim.play("player_squat_walk")
 	if move_direction!=0:
 		$"Texture-0".flip_h=move_direction<0# 设置动画方向
