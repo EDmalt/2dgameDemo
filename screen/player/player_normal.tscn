@@ -10,7 +10,7 @@
 
 [sub_resource type="Animation" id=2]
 tracks/0/type = "value"
-tracks/0/path = NodePath("Texture-0:texture")
+tracks/0/path = NodePath("Texture-0:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -19,10 +19,10 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ ExtResource( 1 ) ]
+"values": [ 0 ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Texture-0:frame")
+tracks/1/path = NodePath("Texture-0:hframes")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -31,10 +31,10 @@ tracks/1/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ 0 ]
+"values": [ 1 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Texture-0:hframes")
+tracks/2/path = NodePath("Texture-0:texture")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -43,7 +43,31 @@ tracks/2/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ 3 ]
+"values": [ ExtResource( 6 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("player:shape:height")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 20.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("player:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -9, 33 ) ]
 }
 
 [sub_resource type="Animation" id=6]
@@ -168,10 +192,9 @@ tracks/2/keys = {
 "values": [ 10 ]
 }
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id=9]
 resource_name = "player_squat"
 length = 0.02
-loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Texture-0:frame")
 tracks/0/interp = 1
@@ -185,7 +208,7 @@ tracks/0/keys = {
 "values": [ 0 ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Texture-0:texture")
+tracks/1/path = NodePath("Texture-0:hframes")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -194,10 +217,10 @@ tracks/1/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 6 ) ]
+"values": [ 1 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Texture-0:hframes")
+tracks/2/path = NodePath("Texture-0:texture")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -206,7 +229,7 @@ tracks/2/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ 1 ]
+"values": [ ExtResource( 6 ) ]
 }
 
 [sub_resource type="Animation" id=8]
@@ -249,6 +272,30 @@ tracks/2/keys = {
 "update": 1,
 "values": [ 8 ]
 }
+tracks/3/type = "value"
+tracks/3/path = NodePath("player:shape:height")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 20.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("player:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -9, 33 ) ]
+}
 
 [sub_resource type="Animation" id=3]
 resource_name = "player_stand"
@@ -289,10 +336,33 @@ tracks/2/keys = {
 "update": 1,
 "values": [ 10 ]
 }
+tracks/3/type = "value"
+tracks/3/path = NodePath("player:shape:height")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 48.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("player:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -9, 20 ) ]
+}
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 24.0
-height = 46.0
 
 [node name="player_normal" type="KinematicBody2D"]
 script = ExtResource( 2 )
@@ -302,19 +372,18 @@ anims/RESET = SubResource( 2 )
 anims/player_jump_down = SubResource( 6 )
 anims/player_jump_up = SubResource( 5 )
 anims/player_run = SubResource( 4 )
-anims/player_squat = SubResource( 7 )
+anims/player_squat = SubResource( 9 )
 anims/player_squat_walk = SubResource( 8 )
 anims/player_stand = SubResource( 3 )
 
 [node name="Texture-0" type="Sprite" parent="."]
 position = Vector2( 0, -33 )
 scale = Vector2( 2.40132, 2.40132 )
-texture = ExtResource( 1 )
-hframes = 3
+texture = ExtResource( 6 )
 region_rect = Rect2( 44, 850, 1133, 190 )
 
 [node name="player" type="CollisionShape2D" parent="."]
-position = Vector2( -8, 18 )
+position = Vector2( -9, 33 )
 shape = SubResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]

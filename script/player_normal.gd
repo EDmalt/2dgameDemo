@@ -27,7 +27,7 @@ func _physics_process(delta):
 	
 
 func _process(delta):
-	var speed_control=Input.get_action_strength("player_squat")+Input.get_action_strength("player_jump")
+	var speed_control=Input.get_action_strength("player_squat")+Input.get_action_strength("player_jump")+Input.get_action_strength("player_Flying")
 	if speed_control==0:
 		max_speed=old_speed
 	#重力部分
@@ -60,15 +60,21 @@ func player_jump(delta):
 func animation_control():
 	# 动画控制
 	if move_direction!=0 and is_on_floor():
-		player_anim.play("player_run")# 播放奔跑动画
+		if Input.is_action_pressed("player_squat"):
+			max_speed=old_speed/2
+			player_anim.play("player_squat_walk")#蹲着行走
+		elif Input.is_action_just_pressed("player_Flying"):
+			max_speed=old_speed*5
+		else:
+			player_anim.play("player_run")# 播放奔跑动画
 	elif player_transform.y<0 and not is_on_floor():
 		player_anim.play("player_jump_up")# 播放跳跃上升动画
 	elif player_transform.y>0 and not is_on_floor():
 		player_anim.play("player_jump_down")# 播放跳跃下降动画
 		max_speed+=10
+	elif Input.is_action_pressed("player_squat"):
+		player_anim.play("player_squat")# 蹲着
 	else:
 		player_anim.play("player_stand")# 播放站立等待动画
-	if Input.is_action_pressed("player_squat"):
-		player_anim.play("player_squat_walk")
 	if move_direction!=0:
 		$"Texture-0".flip_h=move_direction<0# 设置动画方向
