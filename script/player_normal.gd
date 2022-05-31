@@ -37,6 +37,7 @@ func _process(delta):
 	player_jump(delta)
 	animation_control()
 	#print(player_transform.y)
+	print(max_speed)
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
@@ -64,14 +65,16 @@ func animation_control():
 			max_speed=old_speed/2
 			player_anim.play("player_squat_walk")#蹲着行走
 		elif Input.is_action_just_pressed("player_Flying"):
-			max_speed=old_speed*5
+			max_speed=1000
 		else:
 			player_anim.play("player_run")# 播放奔跑动画
 	elif player_transform.y<0 and not is_on_floor():
 		player_anim.play("player_jump_up")# 播放跳跃上升动画
 	elif player_transform.y>0 and not is_on_floor():
 		player_anim.play("player_jump_down")# 播放跳跃下降动画
-		max_speed+=10
+		max_speed+=5
+		if max_speed>=1000:
+			max_speed=1000
 	elif Input.is_action_pressed("player_squat"):
 		player_anim.play("player_squat")# 蹲着
 	else:
